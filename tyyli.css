@@ -11,3 +11,8 @@ p{
     color: black
 }
 
+div{
+    border: 1px;
+    border-color: #fcac5d;
+    border-style: solid;
+}
