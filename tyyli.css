@@ -13,6 +13,9 @@ p{
 
 div{
     border: 1px;
-    border-color: #fcac5d;
+    border-color: black;
     border-style: solid;
+    padding: 20px;
+    margin: 20px;
 }
+
