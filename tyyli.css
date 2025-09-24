@@ -11,6 +11,7 @@ p{
     color: black
 }
 
+/*
 div{
     border: 1px;
     border-color: black;
@@ -18,4 +19,67 @@ div{
     padding: 20px;
     margin: 20px;
 }
+*/
 
+html,body {
+margin:0;
+padding:0;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.teksti {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.linkki1 {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+
+}
+
+.linkki2 {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+
+}
+
+.teksti img {
+    width: 90%;
+
+}
