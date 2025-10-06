@@ -4,11 +4,19 @@ body{
 
 h1{
     color: black;
+    font-size: 60px;
     
 }
 
+h2{
+    color: black;
+    font-size: 35px;
+
+}
+
 p{
-    color: black
+    color: black;
+    font-size: 20px
 }
 
 /*
@@ -36,7 +44,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 ul.breadcrumb li+li:before {
@@ -57,33 +65,55 @@ ul.breadcrumb li a:hover {
 
 
 .teksti {
-    width: 90%;
+    width: 70%;
     margin: auto;
     font-size: 16px;
 }
 
 .footer {
-    width: 90%;
+    width: 70%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .linkki1 {
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     color: black;
 
 }
 
 .linkki2 {
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     color: black;
 
 }
 
 .teksti img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.kuva img {
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 700px) {
+}
+  .kuva img {
+    width: 100%;
+
+}
+}
+
+@media only screen and (min-width: 1025px) {
+}
+  .kuva img {
     width: 90%;
 
+}
 }
