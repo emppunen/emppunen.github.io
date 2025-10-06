@@ -22,19 +22,16 @@ div{
 */
 
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
-</style>
 
 
 html,body {
 margin:0;
 padding:0; 
-.arimo-<uniquifier> {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Arimo", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
 
 ul.breadcrumb {
